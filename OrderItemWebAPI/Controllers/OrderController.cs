@@ -26,7 +26,7 @@ namespace OrderItemWebAPI.Controllers
             Cart cartItem = new Cart()
             { CardId = 1, UserId = 1, MenuItemId=id };
 
-            string baseAddress = $"http://20.119.116.140/api/menuitem/{id}";
+            string baseAddress = $"20.119.116.140/api/menuitem/{id}";
 
             HttpClient client = new HttpClient();
             //client.BaseAddress = new Uri(baseAddress);
